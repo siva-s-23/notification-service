@@ -1,0 +1,59 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# dotenv environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build files
+dist/
+build/
+
+# Cache files
+.cache/
+.tmp/
+
+# Docker-related files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Cloud build-related files
+cloudbuild.yaml
+
+# Coverage directories (if using coverage)
+coverage/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# macOS files
+.DS_Store
+
+# Windows thumbnail database
+Thumbs.db
+
+# Linux trash
+.Trash-*
+
+# Google Cloud secrets (for local use)
+gcloud-config/
+
+# Other system files
+*.swp
