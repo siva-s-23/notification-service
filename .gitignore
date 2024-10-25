@@ -25,12 +25,8 @@ build/
 .tmp/
 
 # Docker-related files
-Dockerfile
 docker-compose.yml
 .dockerignore
-
-# Cloud build-related files
-cloudbuild.yaml
 
 # Coverage directories (if using coverage)
 coverage/
