@@ -1,9 +1,13 @@
 require('dotenv').config();
 const express = require('express');
+const cors = require('cors');
 const axios = require('axios');
 const { renderTemplate } = require('./email/helper/templateHelper');
 
 const app = express();
+app.use(cors({
+    origin: process.env.CORS_DOMAIN
+}));
 app.use(express.json());
 
 const BREVO_API_URL = 'https://api.brevo.com/v3/smtp/email';
